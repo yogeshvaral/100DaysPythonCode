@@ -1,4 +1,4 @@
-## Functions with output- Calculator Assignment
+## Functions with Output- Calculator Assignment
 
 # function return single value
 def format_name(fname, lname):

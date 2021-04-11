@@ -19,7 +19,7 @@ def clear():
 
 # print('hello geeks\n' * 10)
 
-# sleep for 2 seconds after printing output
+# sleep for 2 seconds after printing Output
 # sleep(2)
 
 # now call function we defined above
