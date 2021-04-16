@@ -34,4 +34,3 @@ for char in user_input.upper():
     print(f"{char}:{nato_dict.get(char)} ")
 
 output_dict = { nato_dict[letter] for letter in user_input.upper()}
-print(output_dict.type)
