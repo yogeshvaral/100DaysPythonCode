@@ -1,8 +1,9 @@
 import requests
+import os
 MY_LAT = 18.520430
 MY_LNG = 73.856743
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/onecall"
-MY_KEY = "2624eb685fa4459c28e605246c612203"
+MY_KEY = os.environ["OWM_TOKEN"]
 parameters = {
 "lat" : MY_LAT,
 "lon": MY_LNG,
