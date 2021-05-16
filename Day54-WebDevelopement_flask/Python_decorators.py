@@ -9,9 +9,11 @@ def delay_decorator(function):
 
     return wrapper_function
 
+
 @delay_decorator
 def say_hello():
     print("Hello")
+
 
 @delay_decorator
 def greeting():
@@ -20,6 +22,7 @@ def greeting():
 
 def sayBye():
     print("Bye")
+
 
 say_hello()
 greeting()
